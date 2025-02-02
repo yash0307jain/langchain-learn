@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+    chatbot:
+        build: .
+        ports:
+            - "3002:8501"

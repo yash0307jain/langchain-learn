@@ -2,4 +2,4 @@ services:
     chatbot:
         build: .
         ports:
-            - "3002:8501"
+            - "8002:8501"

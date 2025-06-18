@@ -8,6 +8,6 @@ COPY .env /app
 RUN pip install --upgrade pip
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY chatbot.py /app
+COPY weekly_task_planner_agent.py /app
 
-CMD ["streamlit", "run", "chatbot.py"]
+CMD ["streamlit", "run", "weekly_task_planner_agent.py"]

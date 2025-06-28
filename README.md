@@ -1,4 +1,4 @@
-# LangChain Guide
+# langchain-learn
 
 A concise set of examples illustrating how to use [LangChain](https://github.com/hwchase17/langchain) for building LLM-based applications. This repository showcases simple code snippets and explanations to help you get started quickly.
 
